@@ -1,12 +1,5 @@
 import { Controller, Get, HttpStatus, ParseIntPipe } from '@nestjs/common';
-import {
-  Body,
-  Delete,
-  HttpCode,
-  Param,
-  Post,
-  Put,
-} from '@nestjs/common/decorators';
+import { Body, Delete, HttpCode, Param, Post, Put } from '@nestjs/common/decorators';
 import { DeleteResult } from 'typeorm';
 import { Product } from '../entities/product.entity';
 import { ProductService } from '../services/product.service';
